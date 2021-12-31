@@ -9,59 +9,71 @@
     android:paddingRight="16dp"
     android:background="@drawable/gradient"
     tools:context=".main_level">
+    <LinearLayout
+        android:layout_width="279dp"
+        android:layout_height="473dp"
+        android:orientation="vertical"
+        android:padding="14dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="31dp">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="63dp"
-        android:layout_height="68dp"
-        android:src="@drawable/flag"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="134dp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="63dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="95dp"
+            android:src="@drawable/flag"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="134dp" />
 
-    <TextView
-        android:layout_width="266dp"
-        android:layout_height="46dp"
-        android:text="LEVEL GAME"
-        android:textAlignment="center"
-        android:textColor="#ffff"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.121" />
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:text="LEVEL GAME"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+          />
 
-    <Button
-        android:id="@+id/btn_easy"
-        android:layout_width="217dp"
-        android:layout_height="65dp"
-        android:background="@drawable/roundedbutton"
-        android:onClick="Easy"
-        android:text="EASY"
-        app:backgroundTint="@null"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="234dp" />
+        <Button
+            android:id="@+id/btn_easy"
+            android:layout_width="249dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="Easy"
+            android:text="EASY"
+            app:backgroundTint="@null"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="234dp" />
+        <Button
+            android:id="@+id/button_medium"
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="Medium"
+            android:text="MEDIUM"
+            app:backgroundTint="@null"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="329dp" />
+        <Button
+            android:id="@+id/button_hard"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="Hard"
+            android:text="HARD"
+            app:backgroundTint="@null"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="417dp" />
 
-    <Button
-        android:id="@+id/button_hard"
-        android:layout_width="217dp"
-        android:layout_height="65dp"
-        android:background="@drawable/roundedbutton"
-        android:onClick="Hard"
-        android:text="HARD"
-        app:backgroundTint="@null"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="417dp" />
 
-    <Button
-        android:id="@+id/button_medium"
-        android:layout_width="217dp"
-        android:layout_height="65dp"
-        android:background="@drawable/roundedbutton"
-        android:onClick="Medium"
-        android:text="MEDIUM"
-        app:backgroundTint="@null"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="329dp" />
-
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

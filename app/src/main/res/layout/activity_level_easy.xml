@@ -12,15 +12,14 @@
     tools:context=".MainActivity">
 
 
-
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="491dp"
         android:orientation="vertical"
         android:padding="14dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="127dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="16dp">
 
         <TextView
             android:layout_width="253dp"
@@ -28,28 +27,34 @@
             android:text="Challenge 1"
             android:textAlignment="center"
             android:textColor="#ffff"
-            android:textSize="24sp"
+            android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.18" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="111dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/url"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+        <TextView
+            android:layout_width="253dp"
+            android:layout_height="46dp"
             android:layout_marginTop="10dp"
-            app:boxBackgroundColor="@color/white"
-            app:boxBackgroundMode="outline">
-
-
-            <EditText
-                android:id="@+id/quiz"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="berapa hasil dari 32+32 =?"
-                android:inputType="textCapSentences" />
-        </com.google.android.material.textfield.TextInputLayout>
+            android:text="Mari berhitung, coba selesaikan permasalahan matematika berikut 32 + 32 = ? Hint : every website need url "
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.18" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -63,9 +68,9 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="aHR0cHM6Ly9wYXN0ZWJpbi5jb20vbWs0eTBOazY="
                 android:hint="your flag"
-                android:inputType="textCapSentences" />
+                android:inputType="textCapSentences"
+                android:text="aHR0cHM6Ly9wYXN0ZWJpbi5jb20vbWs0eTBOazY=" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
