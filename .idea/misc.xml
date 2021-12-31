@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.495" />
+        <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/drawable/flag_background.xml" value="0.46458333333333335" />
+        <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/drawable/gradient.xml" value="0.495" />
+        <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/drawable/ic_launcher_background.xml" value="0.495" />
+        <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/drawable/outline_toc_24.xml" value="0.46458333333333335" />
+        <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/drawable/roundedbutton.xml" value="0.52875" />
         <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/layout/activity_level_easy.xml" value="0.5" />
         <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/layout/activity_level_hard.xml" value="0.5" />
         <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/layout/activity_level_medium.xml" value="0.5" />
         <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/layout/activity_main.xml" value="0.5" />
         <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/layout/activity_main_level.xml" value="0.5" />
+        <entry key="..\:/Users/zhirobyte/AndroidStudioProjects/prodCTF/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.495" />
       </map>
     </option>
   </component>
