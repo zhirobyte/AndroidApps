@@ -46,13 +46,26 @@
         <Button
             android:id="@+id/btn_main_level"
             android:layout_width="252dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="50dp"
             android:layout_height="wrap_content"
             android:background="@drawable/roundedbutton"
             android:onClick="Level"
             android:text="START"
             android:textSize="30sp"
             app:backgroundTint="@null" />
+
+
+        <Button
+            android:id="@+id/btn_github"
+            android:layout_width="252dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbutton"
+            android:onClick="Github"
+            android:text="Github"
+            android:textSize="30sp"
+            app:backgroundTint="@null" />
+
     </LinearLayout>
 
 

@@ -36,7 +36,7 @@
 
         <ImageView
             android:layout_width="86dp"
-            android:layout_height="111dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="80dp"
             android:src="@drawable/url"
             tools:layout_editor_absoluteX="89dp"
@@ -98,6 +98,18 @@
             android:text="Check Flag"
             android:textColor="@color/white"
             app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedbutton"
+            android:onClick="Web"
+            android:text="Open Web"
+            android:textColor="@color/white"
+            app:backgroundTint="@null"
+            tools:ignore="OnClick" />
 
     </LinearLayout>
 

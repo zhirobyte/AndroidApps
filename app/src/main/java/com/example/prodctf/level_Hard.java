@@ -5,7 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -21,7 +23,7 @@ public class level_Hard extends AppCompatActivity {
     private Button btnCheck;
     private ProgressDialog progressDialog;
     private FirebaseAuth mAuth;
-
+    private Button btnWeb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +31,7 @@ public class level_Hard extends AppCompatActivity {
         editHint = findViewById(R.id.hint);
         editFlag = findViewById(R.id.flag);
         btnCheck = findViewById(R.id.btn_check);
-
+        btnWeb  = findViewById(R.id.btn_web);
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
         progressDialog = new ProgressDialog(level_Hard.this);
@@ -45,7 +47,12 @@ public class level_Hard extends AppCompatActivity {
             }
         });
     }
-
+    public void Web(View view) {
+        Intent viewIntent =
+                new Intent("android.intent.action.VIEW",
+                        Uri.parse("https://google.com"));
+        startActivity(viewIntent);
+    }
     private void check(String hint, String flag){
         //Coding login
         progressDialog.show();
